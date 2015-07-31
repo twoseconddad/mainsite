@@ -1,0 +1,6 @@
+/*!CK:3540784319!*//*1436793694,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["cjpwL"]); }
+
+__d("LogoutMenu",["csx","DOMQuery","emptyFunction","Event","requireWeak"],function(a,b,c,d,e,f,g,h,i,j,k){b.__markCompiled&&b.__markCompiled();var l;k('MenuItem',function(o){l=o;});function m(o,p){var q;if(p)p.subscribe('confirm',function(){q.submit();});o.subscribe('itemclick',function(r,s){switch(s.item.getValue()){case 'logout':q=h.find(o.getRoot(),"._w0d");break;case 'help':if(l)l.prototype.hasAction=i.thatReturnsFalse;break;default:break;}if(q)if(p){p.show();}else q.submit();});}function n(o,p,q){q.subscribe('confirm',function(){o.controller.submit();});j.listen(p,'click',function(event,r){event.preventDefault();q.show();});}e.exports.init=m;e.exports.initLogoutDialog=n;},null);
+__d("XPagesSavedResponsesImageDuplicationController",["XController"],function(a,b,c,d,e,f){b.__markCompiled&&b.__markCompiled();e.exports=b("XController").create("\/pages\/saved_responses\/image\/duplication\/",{});},null);
