@@ -211,11 +211,11 @@
 						<p>We do many things, but most of our work involves media. Click any of these to be taken to their respective thing!</p>
 						<ul class="icons-grid">
 							<li>
-								<a class="fancyYoutube" rel="group" href="https://www.youtube.com/embed/A0_HRTYk8iQ"><span class="icon major fa-camera-retro"></span>
-								<h3>We have our own short film titled 'Movie Night'</h3> </a href>
+								<a class=" various fancybox.iframe" href="https://www.youtube.com/embed/A0_HRTYk8iQ"> <span class="icon major fa-camera-retro"></span>
+								<h3>We have our own short film titled 'Movie Night'</h3> </a>
 							</li>
 							<li>
-								<a href="https://www.youtube.com/watch?v=HkwSd0XPgtc"><span class="icon major fa-pencil"></span>
+								<a class=" various fancybox.iframe" href="https://www.youtube.com/embed/HkwSd0XPgtc"><span class="icon major fa-pencil"></span>
 								<h3>We've worked with a local football team to film their entry into a competition.</h3> </a href>
 							</li>
 							<li>
@@ -637,5 +637,22 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					});
 				});
 			</script>
+
+			    <script>
+      				  $(document).ready(function() {
+   				     $(".various").fancybox({
+         				   maxWidth    : 800,
+       					     maxHeight   : 600,
+      					      fitToView   : false,
+      					      width       : '70%',
+          					  height      : '70%',
+         					   autoSize    : false,
+      					      closeClick  : false,
+         					   openEffect  : 'none',
+        					    closeEffect : 'none'
+     					   });
+
+  				  });
+  				  </script>
 	</body>
 </html>
