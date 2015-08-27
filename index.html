@@ -623,10 +623,18 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script type="text/javascript" src="assets/js/fancybox/jquery.fancybox-media.js"> </script>
 			<script type="text/javascript" src="assets/js/fancybox/jquery.fancybox-thumbs.js"> </script>
 		
-			<script>
+			<script type"text/javascript">
 			 //Call Fancybox
-				$(Document).ready(function(){
-					$(".fancybox").fancybox();
+				$(function() {
+					$(".fancyYoutube").fancybox({
+						'transitionIn' : 'elastic',
+						'padding' : 0,
+						'autoScale' : false,
+						'transitionOut' : 'fade',
+						'width' : 680,
+						'height' : 495,
+						'type' : 'swf'
+					});
 				});
 			</script>
 	</body>
